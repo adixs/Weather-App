@@ -1,0 +1,31 @@
+<!-- ITBNM-2211-0101 -->
+<!-- Adithya Abeysekara -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="c">
+    <h1>🌍 City Weather Tracker</h1>
+    <div class="button-container">
+      <button class="city" onclick="getWeather('New York')">New York</button>
+      <button class="city" onclick="getWeather('London')">London</button>
+      <button class="city" onclick="getWeather('Tokyo')">Tokyo</button>
+      <button class="city" onclick="getWeather('Colombo')">Colombo</button>
+      <button class="city" onclick="getWeather('Dubai')">Dubai</button>
+    </div>
+    <div id="weather-info" class="info">
+      <p>Click a city to see the weather 🌤️</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
